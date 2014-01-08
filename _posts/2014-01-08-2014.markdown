@@ -2,7 +2,7 @@
 layout: post
 title: "2014"
 date: 2014-01-08 00:13:30
-categories: perso
+tags: perso
 ---
 
 N<sup>th</sup> time I'm starting a blog, let's see how long I last this time.
