@@ -1,0 +1,27 @@
+html, body {
+  background: white;
+}
+
+a {
+  color: #1F8DD6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin: 0.83em 0;
+}
+
+.pure-g-r > .box {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.box {
+  padding: 1em;
+}

@@ -1,0 +1,17 @@
+---
+layout: base
+htmlClass: post
+schema: Article
+---
+  <header>
+    <h1 itemprop="headline">{{ page.title }}</h1>
+  </header>
+
+  <div itemprop="articleBody">
+
+    {{ content }}
+  </div>
+
+  <footer>
+    <small><time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" pubdate itemprop="datePublished">{{ page.date | date_to_string }}</time></small>
+  </footer>
