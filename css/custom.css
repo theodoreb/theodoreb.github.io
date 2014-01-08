@@ -25,3 +25,7 @@ h1 {
 .box {
   padding: 1em;
 }
+
+.sidebar {
+  text-align: right;
+}
