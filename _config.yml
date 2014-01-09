@@ -3,3 +3,4 @@ markdown: redcarpet
 pygments: true
 timezone: Europe/Paris
 permalink: /:year/:title.html
+domain: read.theodoreb.net

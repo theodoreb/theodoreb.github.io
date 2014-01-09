@@ -6,20 +6,20 @@ layout: nil
 <rss version="2.0">
   <channel>
 
-    <title>{{ site.title | replace:"&nbsp;",' ' }}</title>
+    <title>{{ site.name | replace:"&nbsp;",' ' }}</title>
     <description>{{ site.description | replace:"&nbsp;",' ' }}</description>
-    <link>http://{{ site.siteurl }}</link>
-    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
+    <link>http://{{ site.domain }}{{ site.baseurl }}</link>
+    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
     <language>en</language>
 
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <link>http://{{ site.siteurl }}{{ post.url }}</link>
-      <guid>{{ post.id }}</guid>
-      <pubDate>{{ post.date | date: date_to_rfc822 }}</pubDate>
-      <description>{{ post.excerpt | markdownify | strip_html }}</description>
-      <category>{{ post.category }}, {{ post.tag }}</category>
+      <link>http://{{ site.domain }}{{ post.url }}</link>
+      <guid>http://{{ site.domain }}{{ post.url }}</guid>
+      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <description>{{ post.content | markdownify }}</description>
+      <category>{{ post.tags | join: ',') }}</category>
     </item>
     {% endfor %}
 
