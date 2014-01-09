@@ -29,3 +29,13 @@ h2:first-child {
 .sidebar {
   text-align: right;
 }
+
+div[itemprop="articleBody"] {
+  max-width: 928px;
+}
+
+@media (max-width: 767px) {
+  .sidebar {
+    text-align: left;
+  }
+}
