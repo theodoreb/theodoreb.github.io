@@ -2,7 +2,7 @@
 layout: post
 title: "Drupal core JS team"
 summary: "Good news everyone, we have one!"
-comments: 'https://github.com/theodoreb/theodoreb.github.io/pull/2'
+comments: issues/3
 date: 2014-01-10 17:00:00
 tags: dev drupal-planet javascript
 ---
