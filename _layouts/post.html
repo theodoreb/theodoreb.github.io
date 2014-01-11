@@ -14,5 +14,6 @@ schema: Article
   </div>
 
   <footer>
-    <small><time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" pubdate itemprop="datePublished">{{ page.date | date_to_string }}</time></small>
+    <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" pubdate itemprop="datePublished">{{ page.date | date_to_string }}</time>
+    {%if page.comments != nil %}— <a href="{{ page.comments }}">comments</a>{% endif %}
   </footer>
