@@ -15,5 +15,6 @@ schema: Article
 
   <footer>
     <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" pubdate itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+    <span class="author"> — <a href="/">Théodore Biadala</a></span>
     {% if page.comments != nil %} — <a href="https://github.com/theodoreb/theodoreb.github.io/{{ page.comments }}">Comments</a>{% endif %}
   </footer>
