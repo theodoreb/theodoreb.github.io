@@ -3,7 +3,7 @@ layout: post
 title: "Life of a JS maintainer"
 summary: "A personal review of two years of JS maintainership in Drupal core"
 comments: 'issues/4'
-date: 2014-01-12 12:30:00
+date: 2014-01-12 18:30:00
 tags: dev drupal-planet javascript
 ---
 
