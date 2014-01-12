@@ -2,12 +2,11 @@
 title: RSS Feed.
 layout: nil
 ---
-<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0">
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="https://drupal.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-
     <title>{{ site.name | replace:"&nbsp;",' ' }}</title>
-    <description>{{ site.description | replace:"&nbsp;",' ' }}</description>
+    <description>All about Drupal and javascript.</description>
     <link>http://{{ site.domain }}{{ site.baseurl }}</link>
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
     <language>en</language>
@@ -15,11 +14,13 @@ layout: nil
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
+      <dc:creator>nod_</dc:creator>
       <link>http://{{ site.domain }}{{ post.url }}</link>
       <guid>http://{{ site.domain }}{{ post.url }}</guid>
       <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
-      <description>{{ post.content | markdownify }}</description>
+      <description><![CDATA[{{ post.content | markdownify }}]]></description>
       <category>{{ post.tags | join: ',') }}</category>
+      {% if post.comments != nil %}<comments>https://github.com/theodoreb/theodoreb.github.io/{{ post.comments }}</comments>{% endif %}
     </item>
     {% endfor %}
 
