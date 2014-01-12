@@ -82,3 +82,18 @@ div[itemprop="articleBody"] {
     display: none;
   }
 }
+
+@media (max-width: 390px) {
+  p {
+    text-align: justify;
+    -ms-hyphens: auto;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+  }
+  blockquote {
+    margin: 0;
+    padding: 0.25em 1em;
+    font-size: 1em;
+  }
+}
