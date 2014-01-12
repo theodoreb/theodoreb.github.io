@@ -5,7 +5,7 @@ layout: nil
 <?xml version="1.0" encoding="utf-8"?>
 <rss version="2.0" xml:base="https://drupal.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
-    <title>{{ site.name | replace:"&nbsp;",' ' }}</title>
+    <title>Théodore 'nod_' Biadala</title>
     <description>All about Drupal and javascript.</description>
     <link>http://{{ site.domain }}{{ site.baseurl }}</link>
     <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
