@@ -2,7 +2,7 @@
 layout: post
 title: "2014"
 summary: "N<sup>th</sup> time I'm starting a blog"
-date: 2014-01-08 00:13:30
+date: 2014-01-08 00:13:30 +0100
 tags: perso
 ---
 

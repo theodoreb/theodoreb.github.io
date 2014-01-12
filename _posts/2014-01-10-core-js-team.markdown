@@ -3,7 +3,7 @@ layout: post
 title: "Drupal core JS team"
 summary: "Good news everyone, we have one!"
 comments: "issues/3"
-date: 2014-01-10 17:00:00
+date: 2014-01-10 17:00:00 +0100
 tags: dev drupal-planet javascript
 ---
 
