@@ -8,7 +8,7 @@ layout: nil
     <title>Théodore 'nod_' Biadala</title>
     <description>All about Drupal and javascript.</description>
     <link>http://{{ site.domain }}{{ site.baseurl }}</link>
-    <lastBuildDate>{{ site.time | date_to_xmlschema }}</lastBuildDate>
+    <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <language>en</language>
 
     {% for post in site.posts %}
@@ -17,7 +17,7 @@ layout: nil
       <dc:creator>nod_</dc:creator>
       <link>http://{{ site.domain }}{{ post.url }}</link>
       <guid>http://{{ site.domain }}{{ post.url }}</guid>
-      <pubDate>{{ post.date | date_to_xmlschema }}</pubDate>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <description><![CDATA[{{ post.content | markdownify }}]]></description>
       <category>{{ post.tags | join: ',') }}</category>
       {% if post.comments != nil %}<comments>https://github.com/theodoreb/theodoreb.github.io/{{ post.comments }}</comments>{% endif %}
