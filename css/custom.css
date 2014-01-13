@@ -9,7 +9,6 @@ body,
   font-family: 'Droid Sans', sans-serif;
 }
 
-
 a {
   color: #1F8DD6;
   text-decoration: none;
@@ -17,6 +16,13 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+p {
+  -ms-hyphens: auto;
+  -webkit-hyphens: auto;
+  -moz-hyphens: auto;
+  hyphens: auto;
 }
 
 h1, h2:first-child {
@@ -85,15 +91,5 @@ div[itemprop="articleBody"] {
 @media (max-width: 1590px) {
   .title span {
     display: none;
-  }
-}
-
-@media (max-width: 390px) {
-  p {
-    text-align: justify;
-    -ms-hyphens: auto;
-    -webkit-hyphens: auto;
-    -moz-hyphens: auto;
-    hyphens: auto;
   }
 }
