@@ -15,7 +15,7 @@ schema: Article
 
   <footer>
     <meta itemprop="url" content="http://{{ site.domain }}{{ page.url }}">
-    <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" pubdate itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
+    <time datetime="{{ page.date | date: "%Y-%m-%dT%H:%M:%SZ" }}" itemprop="datePublished">{{ page.date | date: "%Y-%m-%d" }}</time>
     <span itemprop="author" itemscope itemtype="http://schema.org/Person">
       <span itemprop="name" class="author"> — <a href="/">Théodore Biadala</a></span>
       <meta itemprop="image" content="http://{{ site.domain }}/assets/images/theodore-nod_-biadala.jpg">
