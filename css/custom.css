@@ -88,8 +88,14 @@ div[itemprop="articleBody"] {
   }
 }
 
+@media (max-width: 1024px) {
+  .title .short {
+    display: none;
+  }
+}
+
 @media (max-width: 1590px) {
-  .title span {
+  .title .name {
     display: none;
   }
 }
