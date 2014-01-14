@@ -87,6 +87,10 @@ footer {
   display: none;
 }
 
+.footnotes {
+  font-size: smaller;
+}
+
 #reply {
   margin-top: 2em;
   text-align: center;
