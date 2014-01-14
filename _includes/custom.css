@@ -97,6 +97,10 @@ div[itemprop="articleBody"], section[itemprop="comment"] {
   max-width: 928px;
 }
 
+section[itemprop="comment"] {
+  overflow: hidden;
+}
+
 @media (max-width: 767px) {
   .sidebar {
     display: none;
