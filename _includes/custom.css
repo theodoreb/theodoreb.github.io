@@ -3,9 +3,7 @@ html, body {
   font-size: 112.5%;
 }
 
-body,
-.pure-g [class *= "pure-u"],
-.pure-g-r [class *= "pure-u"] {
+body, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"] {
   font-family: 'Droid Sans', sans-serif;
 }
 
@@ -25,13 +23,23 @@ p {
   hyphens: auto;
 }
 
+pre, code {
+  -ms-hyphens: none;
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  hyphens: none;
+}
+
 h1, h2:first-child {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
-header p,
-blockquote {
+q {quotes: '“' '”' '‘' '’';}
+q:before {content: open-quote;}
+q:after {content: close-quote;}
+
+header p, q, blockquote {
   font-style: italic;
   font-family: "Georgia",serif;
 }
