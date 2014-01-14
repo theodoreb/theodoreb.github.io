@@ -35,11 +35,16 @@ h1, h2:first-child {
   margin: 0.67em 0;
 }
 
+h3[itemprop="author"] small {
+  font-weight: normal;
+  font-size: 1rem;
+}
+
 q {quotes: '“' '”' '‘' '’';}
 q:before {content: open-quote;}
 q:after {content: close-quote;}
 
-header p, q, blockquote {
+header p, q, blockquote, #comments .me {
   font-style: italic;
   font-family: "Georgia",serif;
 }
@@ -74,11 +79,21 @@ footer {
   text-align: right;
 }
 
+.comment {
+  margin: 1em 0;
+}
+
 .author {
   display: none;
 }
 
-div[itemprop="articleBody"] {
+#reply {
+  margin-top: 2em;
+  text-align: center;
+  font-size: 1.17em;
+}
+
+div[itemprop="articleBody"], section[itemprop="comment"] {
   max-width: 928px;
 }
 

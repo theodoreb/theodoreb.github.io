@@ -21,7 +21,24 @@ schema: Article
       <meta itemprop="image" content="http://{{ site.domain }}/assets/images/theodore-nod_-biadala.jpg">
     </span>
     {% if page.comments != nil %}
-    —&nbsp;<a href="https://github.com/theodoreb/theodoreb.github.io/{{ page.comments }}">Comments</a>
     <meta itemprop="discussionUrl" content="https://github.com/theodoreb/theodoreb.github.io/{{ page.comments }}">
     {% endif %}
   </footer>
+
+  {% if page.comments != nil %}
+    <section itemprop="comment">
+      <h2>Comments</h2>
+      <div id="comments"></div>
+      <p id="reply"><strong>
+        <a href="https://github.com/theodoreb/theodoreb.github.io/{{ page.comments }}" title="Reply on github issue.">Reply</a>
+      </strong></p>
+    </section>
+
+
+    <script>
+      {% include markdown.js %}
+      (function (issueUrl) {
+        {% include comments.js %}
+      }('https://api.github.com/repos/theodoreb/theodoreb.github.io/{{ page.comments }}/comments'));
+    </script>
+  {% endif %}
