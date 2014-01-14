@@ -21,8 +21,10 @@ function renderComment (comment) {
 
 function handleReadystatechange () {
   if (xhr.readyState === 4 && xhr.status === 200){
-    var html = xhr.response.map(renderComment);
-    document.getElementById('comments').innerHTML = html.join('\n');
+    if (xhr.response && xhr.response.length) {
+      var html = xhr.response.map(renderComment);
+      document.getElementById('comments').innerHTML = html.join('\n');
+    }
   }
 }
 
