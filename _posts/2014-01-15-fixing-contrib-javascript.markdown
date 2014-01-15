@@ -40,7 +40,7 @@ to understand why is OpenLayers [recursively calling
 <code>Drupal.attachBehaviors</code>] [openlayers-madness] — it became
 obvious that all the modules copy pasted some piece of core JS and tweaked it.
 
-To fix contrib I had to fix core.
+To fix contrib, core had to be fixed.
 
 
 ## Evil plan
@@ -49,10 +49,10 @@ Drupal powers some huge sites out there so improving Drupal actually improves
 the web. My real ambition is to use Drupal to make the web a better place and
 stop seeing horrible javascript everywhere.
 
-Originally my plan was for Drupal 9 because there was a huge amount of work.
+Originally the plan was for Drupal 9 because there was a huge amount of work.
 That's until my [first big clean-up patch] [closest] was committed by Dries 14
 days after I opened the issue. Seeing how quickly that got in,
-there was hope so I put the plan in motion.
+there was hope and the plan was put in motion.
 
 ### Achieve Good
 
