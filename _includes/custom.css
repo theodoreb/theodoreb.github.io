@@ -88,6 +88,8 @@ footer {
 }
 
 .footnotes {
+  border: 1px solid rgb(102, 102, 102);
+  border-width: 1px 0 0;
   font-size: smaller;
 }
 
