@@ -124,6 +124,7 @@ section[itemprop="comment"] {
   }
   pre {
     overflow: auto;
+    padding: 0.5em;
   }
 }
 
