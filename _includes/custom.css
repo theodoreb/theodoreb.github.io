@@ -53,12 +53,15 @@ header p {
   font-size: 1.5em;
 }
 
-blockquote {
+pre, blockquote {
   color: rgb(102, 102, 102);
-  line-height: 1.5em;
-  font-size: 1.1em;
   border-left: 5px solid rgb(221, 221, 221);
   padding: 0.5em 1.5em;
+}
+
+blockquote {
+  line-height: 1.5em;
+  font-size: 1.1em;
 }
 
 footer {
@@ -118,6 +121,9 @@ section[itemprop="comment"] {
     margin: 0;
     padding: 0.25em 1em;
     font-size: 1em;
+  }
+  pre {
+    overflow: auto;
   }
 }
 
