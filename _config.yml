@@ -1,5 +1,5 @@
 name: Théo<span class="short">dore</span> <span class="name">Biadala</span>
-markdown: kramdown
+markdown: redcarpet
 pygments: true
 timezone: Europe/Paris
 permalink: /:year/:title.html

@@ -32,13 +32,15 @@ running on your JS — while we're not relying on the advanced features of the
 I've seen too many strays variable in contrib and projects. To use,
 put `"use strict";` at the top of the file-closure.
 
-    (function ($, Drupal, drupalSettings) {
+```javascript
+(function ($, Drupal, drupalSettings) {
 
-      "use strict";
+  "use strict";
 
-      // Your code.
+  // Your code.
 
-    })(jQuery, Drupal, drupalSettings);
+})(jQuery, Drupal, drupalSettings);
+```
 
 ### `Function.prototype.bind`
 
@@ -46,59 +48,73 @@ It is the native version of the basic usage of [`jQuery.proxy()`] [jqproxy].
 
 #### Before
 
-    var handler = $.proxy(callback, this);
+```javascript
+var handler = $.proxy(callback, this);
+```
 
 #### After
 
-    var handler = callback.bind(this);
+```javascript
+var handler = callback.bind(this);
+```
 
 ### `Array.prototype.forEach`
 
 Looping is a rather large topic so we'll stick with the basics. Given the
 following array:
 
-    var valueList = [
-      'a', 'e', 'i',
-      'o', 'u', 'y'
-    ];
+```javascript
+var valueList = [
+  'a', 'e', 'i',
+  'o', 'u', 'y'
+];
+```
 
 #### Before
 
-    var i = 0;
-    var il = valueList.length;
-    for (; i < il; i += 1) {
+```javascript
+var i = 0;
+var il = valueList.length;
+for (; i < il; i += 1) {
 
-    }
+}
+```
 
 #### After
 
-    function callback (value, index) {}
-    valueList.forEach(callback);
-
+```javascript
+function callback (value, index) {}
+valueList.forEach(callback);
+```
 
 ### `Object.keys`
 
 This one combined with `forEach` allow you to do painless [filtered for each]
 [foreach] if we take the following object:
 
-    var snacks = {
-      banana: 0,
-      chips: 1000
-    };
+```javascript
+var snacks = {
+  banana: 0,
+  chips: 1000
+};
+```
 
 #### Before
 
-    for (var snack in snacks) {
-      if (snacks.hasOwnProperty(snack)) {
+```javascript
+for (var snack in snacks) {
+  if (snacks.hasOwnProperty(snack)) {
 
-      }
-    }
+  }
+}
+```
 
 #### After
 
-    function eatSnacks (snack) {}
-    Object.keys(snacks).forEach(eatSnacks);
-
+```javascript
+function eatSnacks (snack) {}
+Object.keys(snacks).forEach(eatSnacks);
+```
 
 And that looks much better than the first example. Giving a name to your
 function gives you extra info on what is it the loop is doing without having

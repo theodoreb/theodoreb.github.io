@@ -11,8 +11,8 @@ In my previous post about [javascript maintainership] [last],
 I stated that <q cite="{% post_url 2014-01-12-life-of-js-maintainer %}">If
 core JS doesn't get in your way, as far as I'm concerned,
 I did my job</q>. While true, it's pretty much Level&nbsp;0 of my ambition. I
-do have an overreaching _Evil plan_[^1] [^2] and first I want to talk about
-where it comes from.
+do have an overreaching _Evil plan_<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> <sup id="fnref:2"><a href="#fn:2" class="footnote">2</a></sup>
+and first I want to talk about where it comes from.
 
 
 ## Backstory
@@ -96,12 +96,19 @@ Help Drupal make the web a better place, thank you.
 
 
 
-
-[^1]: It's not really an "Evil plan", it's because "Good plan" just doesn't sound as good.
-[^2]: Sure, trust that guy [^1], see what happens.
-[^3]: Better known as <q>excuse to be able to say <q>but look we're already doing it like that there, it's for consistency</q></q> patch.
-
-
+<div class="footnotes">
+  <ol>
+    <li id="fn:1">
+      <p>It&#8217;s not really an &#8220;Evil plan&#8221;, it&#8217;s because &#8220;Good plan&#8221; just doesn&#8217;t sound as good. <a href="#fnref:1" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:2">
+      <p>Sure, trust that guy <sup id="fnref:1:1"><a href="#fn:1" class="footnote">1</a></sup>, see what happens. <a href="#fnref:2" class="reversefootnote">&#8617;</a></p>
+    </li>
+    <li id="fn:3">
+      <p>Better known as <q>excuse to be able to say <q>but look we&#8217;re already doing it like that there, it&#8217;s for consistency</q></q> patch. <a href="#fnref:3" class="reversefootnote">&#8617;</a></p>
+    </li>
+  </ol>
+</div>
 
 [last]: {% post_url 2014-01-12-life-of-js-maintainer %} "Life of a JS maintainer"
 [kalenji-ajax]: http://www.kalenji-running.com/fr-FR/calendrier-des-courses
