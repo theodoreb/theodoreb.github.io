@@ -56,6 +56,11 @@ generate documentation while we wait for a [Drupal API integration with JSDoc]
 There is still a long way to go for Drupal to become a javascript heaven. We
 can use all the help we can get to make that sooner rather than later.
 
+---
+**2014-01-26**: The patch for [Use JSDoc] [usejsdoc] has been posted
+to the issue queue and needs people to improve and review it.
+
+
 
 [overlay]: https://drupal.org/node/2088121 "Issue #2088121: Remove Overlay"
 [jstest]: https://prague2013.drupal.org/session/javascript-testing "DrupalCon Prague: javascript testing"
@@ -69,3 +74,4 @@ can use all the help we can get to make that sooner rather than later.
 [splitct]: https://drupal.org/node/2162837 "Issue #2162837: Split up contextual.toolbar.js"
 [splitca]: https://drupal.org/node/2174589 "Issue #2174589: Split up ckeditor.admin.js"
 [dapijs]: https://drupal.org/node/1337022#comment-6977250 "Issue #1337022-80: Create/adopt JavaScript docs standards compatible with a JS documentation parser"
+[usejsdoc]: https://drupal.org/node/2182153 "Issue #2182153: Use JSDoc"
