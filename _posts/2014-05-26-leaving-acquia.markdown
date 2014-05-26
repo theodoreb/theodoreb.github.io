@@ -28,7 +28,7 @@ The plan is to relax and enjoy not having to work all the time. After a few
 weeks of that I'll be getting back to working on JS issues that are
 outstanding, more on that in a follow-up post. After DrupalCon I'll be
 working hard on [PillowTime] [pt] my pet project which is an online sleep
-log aimed at people having sleep disorders, like me. The [too much
+log aimed at people with sleep disorders, like me. The [too much
 sleeping] [narco] kind for now, not the [can't get to sleep] [inso] kind yet.
 
 Getting back to core work is fine and dandy but the problem of core funding
