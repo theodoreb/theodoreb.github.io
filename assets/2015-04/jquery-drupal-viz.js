@@ -97,7 +97,7 @@
     // Sort it so that colors are pretty.
     APITree.sort(sortTree).reverse();
 
-    document.querySelector('#stats').innerHTML = 'Total: <strong>' + totalCalls + '</strong> occurrences of jQuery-related code.';
+    document.querySelector('#stats').innerHTML = '<strong>' + totalCalls + '</strong> occurrences of jQuery-related code.';
     return APITree;
   }
 
