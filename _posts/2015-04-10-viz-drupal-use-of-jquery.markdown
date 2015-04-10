@@ -4,7 +4,7 @@ title: "Visualization of jQuery use in Drupal 8"
 summary: "The exhaustive list of what Drupal uses jQuery for"
 comments: "issues/11"
 date: 2015-04-10 20:00:00 +0200
-tags: jquery drupal
+tags: jquery drupal drupal-planet
 ---
 
 Since FrontendUnited 2012 Amsterdam, I've been saying Drupal core should 
@@ -12,6 +12,7 @@ significantly cut it's jQuery use. Until now it was without much data to back
 it up. What follows is a visualization of jQuery modules use in Drupal 8 code,
 it's fancy so feel free to click everywhere. There is additional information 
 in titles, be sure to check those out. Took long enough to make, sorry mobile users.
+
 
 <div id="rss-friend"><a href="http://read.theodoreb.net/2015/viz-drupal-use-of-jquery.html"><img src="http://read.theodoreb.net/assets/2015-04/jquery-modules-use-drupal.png" alt="preview of the visualization graph"></a></div>
 <div id="rss-fiend" style="display:none">
