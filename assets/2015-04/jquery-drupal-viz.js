@@ -249,7 +249,7 @@
   document.querySelector('#controls').addEventListener('change', clickBox, false);
   document.querySelector('#viewtable').addEventListener('click', displayRawData, false);
   window.addEventListener('resize', display, false);
-  document.querySelector('#rawdata').innerText = JSON.stringify(raw, null, 2);
+  document.querySelector('#rawdata code').innerText = JSON.stringify(raw, null, 2);
 
 
   window.dataQuery = prepData;

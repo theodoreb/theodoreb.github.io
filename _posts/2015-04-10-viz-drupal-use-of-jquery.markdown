@@ -91,7 +91,7 @@ little bit more. Meanwhile, I ran it on Drupal code and got this:
 <button type="button" id="viewtable">View raw data</button>.
 
 
-<code><pre id="rawdata" hidden></pre></code>
+<pre id="rawdata" hidden><code></code></pre>
 <div>
   <script src="/assets/2015-04/d3.min.js"></script>
   <script src="/assets/2015-04/jquery-drupal-viz.js"></script>
