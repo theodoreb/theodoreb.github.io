@@ -1,5 +1,6 @@
 html, body {
-  background: white;
+  background: #fcfcfc;
+  color: #444;
   font-size: 112.5%;
 }
 
@@ -53,9 +54,15 @@ header p {
   font-size: 1.5em;
 }
 
+p.highlight {
+  border: 5px solid #ddd;
+  padding: 1em;
+  margin: 2em 0;
+}
+
 pre, blockquote {
-  color: rgb(102, 102, 102);
-  border-left: 5px solid rgb(221, 221, 221);
+  color: #666;
+  border-left: 5px solid #ddd;
   padding: 0.5em 1.5em;
 }
 
