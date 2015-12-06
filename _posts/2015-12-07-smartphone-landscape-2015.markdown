@@ -60,7 +60,7 @@ the average life of an Android device in the same time period, we get
 **3&nbsp;months**. Since the market is slowing down, we'll have a better luck of 
 calculating device life over the 2015–2019 period: 
  
-<div class="highlight">
+<div class="p-highlight">
 <p>Over the 2015–2019 period the average life of a device:</p>
 <ul>
 <li>Android: <strong>1 year and 1 month</strong></li>

@@ -55,7 +55,7 @@ header p {
   font-size: 1.5rem;
 }
 
-p.highlight, div.highlight {
+p.highlight, div.p-highlight {
   border: 5px solid #ddd;
   padding: 1rem;
   margin: 2em 0;
