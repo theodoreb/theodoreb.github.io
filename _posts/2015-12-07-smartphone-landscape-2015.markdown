@@ -26,7 +26,7 @@ if you know of more accurate predictions, let me know and I'll update here.
 Smartphone shipments by OS and total smartphone usage for 2010—2019
 </figcaption>
 <a class="hide" href="http://read.theodoreb.net/2015/smartphone-landscape-2015.html">
-<img id="chart-main-fallback" src="/assets/2015-12/smartphone-landscape-2015.png" alt="Graph of smartphone shipments and usage for the 2010—2015 period">
+<img id="chart-main-fallback" src="http://read.theodoreb.net/assets/2015-12/smartphone-landscape-2015.png" alt="Graph of smartphone shipments and usage for the 2010—2015 period">
 </a>
 <div id="chart-main"></div>
 </figure>
@@ -81,7 +81,7 @@ out so bad most won't want it (as if). Could be that my data is wrong too.
 Price range of smartphones by OS in Q2 2014
 </figcaption>
 <a class="hide" href="http://read.theodoreb.net/2015/smartphone-landscape-2015.html">
-<img id="chart-price-fallback" src="/assets/2015-12/smartphone-landscape-2015-price.png" alt="Graph of smartphone price distribution">
+<img id="chart-price-fallback" src="http://read.theodoreb.net/assets/2015-12/smartphone-landscape-2015-price.png" alt="Graph of smartphone price distribution">
 </a>
 <div id="chart-price"></div>
 </figure>
