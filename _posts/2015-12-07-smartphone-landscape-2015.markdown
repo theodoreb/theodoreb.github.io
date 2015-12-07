@@ -131,7 +131,7 @@ Where the data comes from as well as interesting related pages.
 
 
 
-<div>
+<div style="display:none">
   <link rel="stylesheet" href="/assets/2015-12/c3.min.css">
   <style>
     #chart-main {width: 100%; height: 600px;}
