@@ -3,7 +3,7 @@ layout: post
 title: "Smartphone landscape in 2015"
 summary: "Android devices are churning along"
 comments: "issues/12"
-date: 2015-12-07 10:20:00 +0200
+date: 2015-12-08 00:42:00 +0100
 tags: jquery drupal drupal-planet
 ---
 
@@ -129,6 +129,13 @@ Where the data comes from as well as interesting related pages.
 * [Gartner Says By 2018, More Than 50 Percent of Users Will Use a Tablet or Smartphone First for All Online Activities](https://www.gartner.com/newsroom/id/2939217)
 * [Churn rate](https://en.wikipedia.org/wiki/Churn_rate)
 
+------
+
+### 2015-12-08: Updated
+
+Updated total smartphone usage data based on [Ericsson Mobility Report](http://www.ericsson.com/res/docs/2015/ericsson-mobility-report-june-2015.pdf) data.
+It's a little optimistic but the shipment data combined with the average device
+lifespan supports the 6 billions number.
 
 
 <div style="display:none">
