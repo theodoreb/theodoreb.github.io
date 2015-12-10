@@ -154,7 +154,7 @@ not saying that if you use Angular, Ember, or React in their current state
 you don't care about people, I'm simply writing it. If your problem is 
 that you can't run your profiling rig on cheap smartphones, it's not
 a problem since you'll be looking at time on the second order of magnitude, 
-and you're not a sloth, a stopwatch will do the trick. 
+and you're not a sloth, a stopwatch will do. 
 
 By coincidence Dries just posted [Should we decouple Drupal with a 
 client-side framework?] [dries], my answer should be pretty clear by now but it 
