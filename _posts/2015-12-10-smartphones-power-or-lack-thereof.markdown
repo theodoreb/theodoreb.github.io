@@ -4,7 +4,7 @@ title: "Smartphones' power, or lack thereof"
 summary: "Most people don't have an octo-core smartphone"
 comments: "issues/13"
 date: 2015-12-10 09:42:00 +0100
-tags: jquery drupal drupal-planet
+tags: smartphone drupal-planet
 ---
 
 Drupal 8 just got out and many people are looking at it to power their 

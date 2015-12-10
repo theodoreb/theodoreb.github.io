@@ -4,7 +4,7 @@ title: "Smartphone landscape in 2015"
 summary: "Android devices are churning along"
 comments: "issues/12"
 date: 2015-12-08 00:42:00 +0100
-tags: jquery drupal drupal-planet
+tags: smartphone drupal-planet
 ---
 
 
