@@ -96,7 +96,7 @@ If we step out of smartphones for a second, consider the [Raspberry Pi Zero]
 smartphone and people make media centers and servers out of those things. 
 Tiny computers are not the only devices roaming the internet.
 Consider  a Wii U, Xbox, even TVs that will end up on the web with their 
-punny specs. Remember, it's all about *accessibility*.  
+puny specs. Remember, it's all about *accessibility*.  
 
  
    
