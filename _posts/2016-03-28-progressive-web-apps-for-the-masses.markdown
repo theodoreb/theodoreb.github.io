@@ -33,7 +33,7 @@ the website: requesting an image? a CSS file? some Ajax request? all going
 through the serviceworker. Controlling requests means controlling responses: 
 their origin (cache or network) and their contents. Any request or response
 can be altered, redirected or replaced. One obvious benefit is that any response
-can put in cache. When the user is offline and his request fails, he'll see 
+can be put in cache. When the user is offline and his request fails, he'll see 
 a fallback page instead. 
 
 Let's take an example: You're preparing for an event, browsing the 
