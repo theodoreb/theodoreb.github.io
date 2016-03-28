@@ -60,7 +60,7 @@ to hit the networks. Fonts, images, CSS and JS will always come from cache.
 There are many strategies on how to handle requests, I would point to the very 
 well made [offline cookbook] [cookbook] for a good idea of what's possible. 
 In a follow-up post I'll talk about a strategy that should suit CMSs,
-involving different caching strategies based on the type of resource requested.
+based around the type of resource requested.
   
 
 ## OS integration
