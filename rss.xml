@@ -18,7 +18,7 @@ title: RSS Feed.
       <guid>http://{{ site.domain }}{{ post.url }}</guid>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
       <description><![CDATA[{{ post.content | markdownify }}]]></description>
-      <category>{{ post.tags | join: ',') }}</category>
+      <category>{{ post.tags | join: ',' }}</category>
       {% if post.comments != nil %}<comments>https://github.com/theodoreb/theodoreb.github.io/{{ post.comments }}</comments>{% endif %}
     </item>
     {% endfor %}
