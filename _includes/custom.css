@@ -5,6 +5,10 @@ html, body {
   line-height: 1.5;
 }
 
+h1, h2, h3 {
+  letter-spacing: -1px;
+}
+
 body, .pure-g [class *= "pure-u"], .pure-g-r [class *= "pure-u"] {
   font-family: 'Droid Sans', sans-serif;
 }
@@ -53,6 +57,7 @@ header p, q, blockquote, #comments .me {
 
 header p {
   font-size: 1.5rem;
+  letter-spacing: -0.25px;
 }
 
 p.highlight, div.p-highlight {
