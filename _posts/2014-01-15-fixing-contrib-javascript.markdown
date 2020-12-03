@@ -30,7 +30,8 @@ Those maps were showing up in views, [ajax views] [kalenji-ajax] (it looks
 broken, probably is, no idea). I ran into various javascript bugs of the
 ctools module. Sent patches. Thankfully most of them made it in so I
 didn't have to worry about a patched ctools. The jQuery UI patch for ctools
-modal was the most fun, had a solution that [monkey-patched the JS like crazy]
+modal was the most fun, had a solution that [monkey-patched the JS all over the
+place]
 [ctools-dialog].
 
 At that point I was pretty horrified by the quality of javascript code
