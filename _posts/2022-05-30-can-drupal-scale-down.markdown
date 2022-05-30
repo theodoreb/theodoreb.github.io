@@ -3,7 +3,7 @@ layout: post
 title: "Can Drupal scale down?"
 summary: "Drupal can scale up, how far down can it go?"
 comments: "issues/17"
-date: 2022-05-30 16:00:00 +0200
+date: 2022-05-30 13:00:00 +0200
 tags: drupal-planet javascript
 ---
 
