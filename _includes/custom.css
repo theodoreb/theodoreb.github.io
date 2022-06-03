@@ -50,9 +50,13 @@ q {quotes: '“' '”' '‘' '’';}
 q:before {content: open-quote;}
 q:after {content: close-quote;}
 
-header p, q, blockquote, #comments .me {
+header p, q, blockquote {
   font-style: italic;
   font-family: "Georgia",serif;
+}
+
+#comments .me {
+  background: rgba(214, 209, 31, 0.2);
 }
 
 header p {
@@ -131,7 +135,7 @@ footer {
 }
 
 .comment {
-  margin: 1em 0;
+  padding: .1em 1em;
 }
 
 .author {

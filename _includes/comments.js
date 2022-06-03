@@ -10,12 +10,10 @@ function renderComment (comment) {
     content = marked(comment.body),
     me = comment.user.login === 'theodoreb';
 
-  return '<a name="comment' + comment.id + '"></a>' +
-    '<article class="comment" itemscope itemtype="http://schema.org/Comment">' +
+  return '<article class="comment' + (me ? ' me' : '') + '" itemscope itemtype="http://schema.org/Comment">' +
+    '<a name="comment' + comment.id + '"></a>' +
     '<header>' + header + '</header>' +
-    (me ? '<blockquote>' : '') +
     '<div class="content" itemprop="text">' + content + '</div>' +
-    (me ? '</blockquote>' : '') +
     '</article>';
 }
 
