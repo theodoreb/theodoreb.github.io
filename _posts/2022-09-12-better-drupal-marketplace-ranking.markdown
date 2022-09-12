@@ -85,7 +85,7 @@ change anything. It's just on our end that we did extra work and unpaid hours to
 ## Wait, isn't it companies we're ranking? 
 
 So, we're using the output of workers to rank companies and we have no regard for how the output is created, and we 
-do not take into account the fact that the company as en entity is helping the community or if it's just the employees
+do not take into account the fact that the company as an entity is helping the community or if it's just the employees
 doing extra. 
 
 If we're ranking companies, we should be using company metrics and make sure that what is rewarded are things we really 
