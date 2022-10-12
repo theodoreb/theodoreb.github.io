@@ -77,7 +77,7 @@ we could compensate for that! So that's what we did the next few months, we impr
 ended up on the second page only through contribution credit — core credit was very effective — and writing 
 case studies.
 
-The rules made is possible for people to compensate the lack of involvement of the company. And us doing this work, 
+The rules made it possible for people to compensate the lack of involvement of the company. And us doing this work, 
 meant the company didn't need to care about this because the end result is a better ranking and they didn't have to 
 change anything. It's just on our end that we did extra work and unpaid hours to improve the situation. 
 
