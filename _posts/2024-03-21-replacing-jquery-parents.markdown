@@ -2,7 +2,7 @@
 layout: post
 title: "Replacing jQuery parents() with CSS :has()"
 summary: "CSS is awesome"
-comments: "issues/19"
+comments: "issues/20"
 date: 2024-03-21 23:30:00 +0100
 tags: drupal-planet community
 ---
