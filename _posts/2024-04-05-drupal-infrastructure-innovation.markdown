@@ -49,6 +49,8 @@ available to the Drupal testbot. If you have a Drupal website using DDEV you can
 `ddev get theodoreb/ddev-frankenphp-drupal && ddev restart` and it should mostly work (with some https problems for now).
 I would love to know what you think, leave a comment or let's chat in #drupal slack.
 
+If you're interested in [sponsoring] [sponsor] me to work on this or other Drupal things, that would be great!
+
 
 
 [scale]: https://read.theodoreb.net/2022/can-drupal-scale-down.html
@@ -63,3 +65,4 @@ I would love to know what you think, leave a comment or let's chat in #drupal sl
 [mercure]: https://frankenphp.dev/docs/mercure/
 [worker-doc]: https://frankenphp.dev/docs/worker/
 [early-hints]: https://developer.chrome.com/docs/web-platform/early-hints
+[sponsor]: https://tresbien.tech/drupal-contribution/?from=blog
