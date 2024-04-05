@@ -3,7 +3,7 @@ layout: post
 title: "Drupal needs infrastructure innovation"
 summary: "Wait, what?"
 comments: "issues/21"
-date: 2024-04-05 12:30:00 +0100
+date: 2024-04-05 12:30:00 +0200
 tags: drupal-planet community
 ---
 
