@@ -20,7 +20,7 @@ distributed as a single executable. I haven't tested it yet, it's possible to bu
 ship everything in one executable.
 
 Drupal has always been about giving people more power than they expect (or even want in some cases…). On the content 
-management side of things we're very, very advanced, even is some interfaces and interactions can look and feel a bit 
+management side of things we're very, very advanced, even if some interfaces and interactions can look and feel a bit 
 dated. Defining content types, creating custom fields, workflows, content listing, layouts, decoupled, media library, 
 and more we've been doing that for a long time, we have a very wide range of modules for practically any use case you 
 can think of. And the vast majority of the modules work together without conflicts, and they're all free.
