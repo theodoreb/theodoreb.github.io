@@ -51,7 +51,7 @@ document.querySelectorAll('body:has(#article-19)');
 The only limitation is that a unique identifier needs to exist to build the CSS selector, that's easy enough to generate
 if necessary.
 
-Use the platform. When it's good, it's really good. 
+Use the platform. When it's good, it's really good.
 
 [jquery core]: https://www.drupal.org/project/drupal/issues/3238306
 [jquery parents]: https://www.drupal.org/project/drupal/issues/3238868
