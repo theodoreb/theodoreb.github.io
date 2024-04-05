@@ -25,7 +25,7 @@ dated. Defining content types, creating custom fields, workflows, content listin
 and more we've been doing that for a long time, we have a very wide range of modules for practically any use case you 
 can think of. And the vast majority of the modules work together without conflicts, and they're all free.
 
-What I would like to see is Drupal using with FrankenPHP in the worker mode as the default way to put Drupal on 
+What I would like to see is Drupal using FrankenPHP in the worker mode as the default way to put Drupal on 
 production. This will make it possible to host Drupal more easily. Hook the included webserver to a 
 startup/monitoring script (we'll give examples) and you're ready to serve the website. No need to install apache, nginx, 
 or even PHP! 
