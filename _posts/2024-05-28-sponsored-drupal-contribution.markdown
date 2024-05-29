@@ -89,7 +89,7 @@ running. If you're interested in supporting my work on Drupal core and keep the 
 consider [sponsoring me] [contrib2]. 
 
 
-[contrib1]: https://tresbien.tech/drupal-contribution/?f=b&pos=1
-[contrib2]: https://tresbien.tech/drupal-contribution/?f=b&pos=2
+[contrib1]: https://tresbien.tech/drupal-contribution/?from=b&pos=1
+[contrib2]: https://tresbien.tech/drupal-contribution/?from=b&pos=2
 [palantir]: https://www.drupal.org/palantirnet
 [optasy]: https://www.drupal.org/optasy
