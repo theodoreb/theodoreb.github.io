@@ -5,7 +5,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>http://{{ site.domain }}/</loc>
+    <loc>https://{{ site.domain }}/</loc>
     <lastmod>{{ site.time | date: "%Y-%m-%d" }}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -13,7 +13,7 @@
 
   {% for page in site.posts %}
   <url>
-    <loc>http://{{ site.domain }}{{ page.url }}</loc>
+    <loc>https://{{ site.domain }}{{ page.url }}</loc>
     {% if page.last_updated %}
     <lastmod>{{ page.last_updated | date: "%Y-%m-%d" }}</lastmod>
     {% elsif page.date %}
